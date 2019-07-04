@@ -12,6 +12,8 @@ jobs:
           # Must be an absolute path, or relative path from working_directory
           root: my_workspace
           # Must be relative path from root
+          paths:
+            - echo-output
       
   two:
     docker:
